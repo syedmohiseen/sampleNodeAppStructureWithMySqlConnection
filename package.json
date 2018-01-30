@@ -1,0 +1,42 @@
+{
+  "name": "nodepp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js env=dev",
+    "test": "mocha",
+    "common": "mocha test/common/Common.test.js",
+    "runLocal": "node --debug app.js env=local",
+    "runTestLocal": "node --debug app.js env=test",
+    "runWSTestLocal": "node app.js env=test",
+    "debugWSTestLocal": "node %NODE_DEBUG_OPTION% app.js env=test"
+  },
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "aws-sdk": "^2.185.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "express-unless": "^0.3.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jQuery": "^1.7.4",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "memory-cache": "^0.2.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.20.1",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "multer-s3": "^2.7.0",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "shortid": "^2.2.8",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2",
+    "xlsx": "^0.11.17"
+  },
+  "author": "",
+  "license": "ISC"
+}

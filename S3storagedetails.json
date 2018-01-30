@@ -1,0 +1,16 @@
+{
+    "name": "msyed",
+
+    "aws": {
+        "accessKeyId": "will get once we createacount in S3",
+        "secretAccessKey": "will get once we createacount in S3"
+    },
+    "s3": {
+        "accessKeyId": "will get once we createacount in S3",
+        "secretAccessKey": "will get once we createacount in S3",
+        "bucket": "bucketName",
+        "host": "s3.amazonaws.com/",
+        "root": "folder/",
+        "region": "us-east-1"
+    }
+}

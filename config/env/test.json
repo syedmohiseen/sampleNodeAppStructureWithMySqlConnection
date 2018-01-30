@@ -1,0 +1,15 @@
+{
+    "sampleTest": {
+        "db": {
+            "host": "localhost",
+            "user": "root",
+            "password": "root",
+            "database": "syed",
+            "port":3306
+        }
+    },
+    "port": 4000,
+    "sessionsecret": "sampleTest",
+    "logging-path": "/temporar/log/ZIP",
+    "log-level": "debug"
+}

@@ -1,0 +1,23 @@
+{
+	"sample": {
+		
+		
+		"redis": {
+			"host": "localhost",
+			"port": 6379
+		},
+		"NOTIFICATION_CRON_JOB_INTERVAL": 60000,
+		"AUTO_MASTER_LOGIN_CRON_JOB_INTERVAL": 36000,
+		"AUTO_MASTER_LOGIN_RETRY_INTERVAL": 30000,
+		"REBALANCER_SQS_POLLER_INTERVAL": 5000,
+		"allowed-origins": true,
+		"req-logger": "combined"
+	},
+	"port": 3000,
+	"LoginKey": "Basic cHJpbWV0Z2k6cHJpbWV0Z2kyMiE=",
+	"sessionsecret": "sampleTest",
+	"log-level": "debug",
+	"logging-path": "/var/log/orioneclipse",
+	"uploaded-temp-path": "/tmp/orionEclipse/",
+	"loginAPIUrl": "/v1/admin/token"
+}
