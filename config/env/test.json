@@ -2,9 +2,9 @@
     "sampleTest": {
         "db": {
             "host": "localhost",
-            "user": "root",
-            "password": "root",
-            "database": "syed",
+            "user": "Give userName",
+            "password": "Give Password",
+            "database": "create a database ",
             "port":3306
         }
     },
